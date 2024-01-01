@@ -1,0 +1,35 @@
+.task{
+display:flex;
+align-items: center;
+width: 300px;
+justify-content: space-between;
+height: 35px;
+padding: 2px 5px 2px 5px;
+margin-top: 2px;
+
+
+}
+
+.checkbox{
+    display: flex;
+    align-items:center;
+}
+
+.checkbox .icon{
+    margin-right: 5px;
+    font-size: 15px;
+
+}
+
+.task div span {
+    margin: 0px 4px  0px 4px;
+
+}
+
+.task div .icon{
+    cursor: pointer;
+}
+
+.line_through{
+    text-decoration: line-through;
+}
